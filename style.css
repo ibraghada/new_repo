@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css?family=Cabin');
+@import url('https://fonts.googleapis.com/css?family=Questrial');
+h1 {
+  font-family: 'Questrial', sans-serif;
+  font-size: 50px;
+  color: white;
+}
+
+body {
+  background: url("./assets/IMG_8844_1.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.container {
+  width: 470px;
+  margin-left: 120px;
+  margin-top: 50px;
+  padding: 30px;
+  background: grey;
+  background-color: rgba(0, 0, 0, 0.6);
+  border-radius: 50px;
+  text-align: center;
+  font-size: 18px;
+  font-family: Cabin, sans-serif;
+  font-style: normal;
+  color: Tomato;
+  align-content: center;
+}
+
+.image {
+  margin-left: -80px;
+  margin-top: -60px;
+  align-content: center;
+  text-align: center;
+}
+
+.social {
+  margin-bottom: 20px;
+  margin-left: auto;
+  padding-right: 30px;
+  padding-left: 30px;
+  align-content: center;
+  text-align: center;
+}
+
+.gsg-logo {
+  align-content: auto;
+}
+
+@media only screen and (max-width: 460px) {
+  .container {
+    height: 90vh;
+    margin-left: 15vh;
+    background: grey;
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 50px;
+    text-align: center;
+    font-size: 17px;
+    font-family: Cabin, sans-serif;
+    font-style: normal;
+    color: #DDDDDD;
+    align-self: center;
+  }
+  body {
+    background: url("./assets/IMG_8844_1.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 160vh;
+  }
+  p {
+    font-size: 22px;
+  }
+}
